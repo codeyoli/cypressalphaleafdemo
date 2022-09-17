@@ -1,0 +1,25 @@
+{
+  "name": "uicypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "npx cypress open",
+    "run": "npx cypress run",
+    "report": "cypress run --reporter mochawesome",
+    "filter": "npx cypress run --spec ./cypress/e2e/smoke*.js",
+    "filterGrep": "npx cypress run --env grepTags=@search",
+    "fitlerR": "npx cypress run --reporter mochawesome --env grepTags=@search"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^10.3.1",
+    "cypress-grep": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}
