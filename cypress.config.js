@@ -15,8 +15,8 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     video: false,
 
-    viewportHeight: 950,
-    viewportWidth: 1080,
+    viewportHeight: 1080,
+    viewportWidth: 1920,
 
     retries: {
       runMode: 0,
