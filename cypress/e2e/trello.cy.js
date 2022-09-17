@@ -2,7 +2,7 @@
 
 const { faker } = require('@faker-js/faker');
 
-describe('smoke test class', () => {
+describe('Testing Trello Page', () => {
 
    it('Invalid login results in error message',  () => {
       // test data
